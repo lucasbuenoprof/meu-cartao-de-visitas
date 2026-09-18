@@ -1,0 +1,102 @@
+/* 1. RESET: Tira margens padrão e escolhe uma fonte mais limpa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. CORPO DA PÁGINA: Centraliza no estilo celular e coloca fundo cinza */
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    max-width: 500px; /* Mantém estreito como um Linktree */
+    margin: 0 auto; /* O 'auto' centraliza a página na tela do computador */
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3. CABEÇALHO: Estiliza a sua foto para ficar redonda */
+header img {
+    border-radius: 50%; /* Faz a imagem ficar perfeitamente redonda */
+    border: 3px solid #007bff; /* Borda azul em volta da foto */
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* 4. CARTÕES DE CONTEÚDO (As tags <section> e <nav>) */
+section, nav {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Arredonda as pontas dos cartões brancos */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Sombreado leve */
+    text-align: left; /* Joga o texto para a esquerda dentro do cartão */
+}
+
+h2 {
+    font-size: 18px;
+    color: #007bff;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* 5. LISTA DE ESTUDOS */
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* 6. A MÁGICA DOS BOTÕES (Transformando os links) */
+nav ul {
+    list-style: none; /* Tira as bolinhas da lista de links */
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 15px; /* Espaço entre os botões */
+}
+
+nav a {
+    display: block; /* Faz o link ocupar a linha inteira (botão grande) */
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Letra branca */
+    text-decoration: none; /* Tira o sublinhado do link */
+    padding: 12px;
+    text-align: center; /* Centraliza o texto do botão */
+    border-radius: 8px; /* Arredonda as pontas do botão */
+    font-weight: bold;
+    transition: background 0.3s; /* Deixa a mudança de cor suave */
+}
+
+/* Efeito ao passar o mouse por cima do botão (apenas para PC) */
+nav a:hover {
+    background-color: #0056b3; /* Fica um azul mais escuro */
+}
+
+/* 7. RODAPÉ */
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Deixa o texto dos parágrafos justificado (alinhado dos dois lados) */
+section p {
+    text-align: justify;
+}
